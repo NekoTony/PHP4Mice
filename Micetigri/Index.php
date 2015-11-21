@@ -3,14 +3,14 @@ include('Config.php')
 ?>
 <html>
 <head>
-<title>Cfm API</title>
+<title>Micetigri API</title>
 <link rel="stylesheet" href="../css/bootstrap.css">
 <link rel="stylesheet" href="../css/bootstrap-theme.css">
 <head>
 <body>
 <center>
 <div class="page-header">
-  <h1>CheeseForMice Api</h1>
+  <h1>Micetigri Api</h1>
 <h3>Username: <?php echo $Stats->name; ?></h3>
 	<div class="well">
 	 <p>To Echo your username into an HTML Document insert <code><?php echo $Stats->name; ?> </code> onto your code!<p>

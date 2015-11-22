@@ -11,11 +11,49 @@ include('Config.php')
 <center>
 <div class="page-header">
   <h1>Micetigri Api</h1>
-<h3>Username: <?php echo $Stats->name; ?></h3>
-	<div class="well">
-	 <p>To Echo your username into an HTML Document insert <code><?php echo $Stats->name; ?> </code> onto your code!<p>
-	</div>
 </div>
+<h3>Username</h3>
+<?php
+highlight_string('<?php echo $Stats->name; ?>');
+?>
+<h5>Results: <?php echo $Stats->name; ?></h5>
+<hr>
+<h3>Tribe<h3>
+<?php
+highlight_string('<?php echo $Stats->tribe; ?>');
+?>
+<h5>Results: <?php echo $Stats->tribe ?></h5>
+<hr>
+<h3>Registration Date<h3>
+<?php
+highlight_string('<?php echo $Stats->registration; ?>');
+?>
+<h5>Results: <?php echo $Stats->registration ?></h5>
+<hr>
+<h3>ID<h3>
+<?php
+highlight_string('<?php echo $Stats->id; ?>');
+?>
+<h5>Results: <?php echo $Stats->id ?></h5>
+<hr>
+<h3>Experience<h3>
+<?php
+highlight_string('<?php echo $Stats->experience; ?>');
+?>
+<h5>Results: <?php echo $Stats->experience ?></h5>
+<hr>
+<h3>Level<h3>
+<?php
+highlight_string('<?php echo $Stats->level; ?>');
+?>
+<h5>Results: <?php echo $Stats->level ?></h5>
+<hr>
+<h3>Titles<h3>
+<?php
+highlight_string('<?php echo $Stats->title; ?>');
+?>
+<h5>Results: <?php echo $Stats->title ?></h5>
+<hr>
 </center>
 <nav class="navbar navbar-default navbar-fixed-bottom">
   <div class="container">
@@ -28,6 +66,5 @@ include('Config.php')
 </div>
 </nav>
 <script src="../js/bootstrap.js">
-
 </body>
 </html>

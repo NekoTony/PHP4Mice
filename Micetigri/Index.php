@@ -54,6 +54,20 @@ highlight_string('<?php echo $Stats->title; ?>');
 ?>
 <h5>Results: <?php echo $Stats->title ?></h5>
 <hr>
+<h3>Rounds that you've played<h3>
+<?php
+highlight_string('<?php echo $Stats->round_played; ?>');
+?>
+<h5>Results: <?php echo $Stats->round_played ?></h5>
+<hr>
+<h3>Cheese gathered as Shaman<h3>
+<?php
+highlight_string('<?php echo $Stats->shaman_cheese; ?>');
+?>
+<h5>Results: <?php echo $Stats->shaman_cheese ?></h5>
+<hr>
+<br>
+<br>
 </center>
 <nav class="navbar navbar-default navbar-fixed-bottom">
   <div class="container">

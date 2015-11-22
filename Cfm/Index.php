@@ -31,11 +31,18 @@ highlight_string('<?php echo $Stats->title; ?>');
 highlight_string('<?php echo $Stats->rounds; ?>');
 ?>
 <h5>Results: <?php echo $Stats->rounds ?></h5>
-<hr><h3>Gathered Cheese<h3>
+<hr>
+<h3>Gathered Cheese<h3>
 <?php
 highlight_string('<?php echo $Stats->cheese; ?>');
 ?>
 <h5>Results: <?php echo $Stats->cheese ?></h5>
+<hr>
+<h3>Cheese gathered as Shaman<h3>
+<?php
+highlight_string('<?php echo $Stats->sham_cheese; ?>');
+?>
+<h5>Results: <?php echo $Stats->sham_cheese ?></h5>
 <hr>
 </div>
 </center>

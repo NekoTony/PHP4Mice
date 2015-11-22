@@ -10,7 +10,7 @@ include('Config.php')
 <body>
 <center>
 <div class="page-header">
-  <h1>Micetigri Api</h1>
+  <h1>Micetigri API</h1>
 </div>
 <h3>Your Username</h3>
 <?php

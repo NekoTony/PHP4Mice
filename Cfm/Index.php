@@ -10,7 +10,7 @@ include('Config.php')
 <body>
 <center>
 <div class="page-header">
-  <h1>CheeseForMice Api</h1>
+  <h1>CheeseForMice API</h1>
 <h3>Your Username<h3>
 <?php
 highlight_string('<?php echo $Stats->name; ?>');

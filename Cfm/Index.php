@@ -11,10 +11,32 @@ include('Config.php')
 <center>
 <div class="page-header">
   <h1>CheeseForMice Api</h1>
-<h3>Username: <?php echo $Stats->name; ?></h3>
-	<div class="well">
-	 <p>To Echo your username into an HTML Document insert <code><?php echo $Stats->name; ?> </code> onto your code!<p>
-	</div>
+<h3>Your Username<h3>
+<?php
+highlight_string('<?php echo $Stats->name; ?>');
+?>
+<h5>Results: <?php echo $Stats->name ?></h5>
+<hr><h3>Your Tribe<h3>
+<?php
+highlight_string('<?php echo $Stats->tribe; ?>');
+?>
+<h5>Results: <?php echo $Stats->tribe ?></h5>
+<hr><h3>Your Title<h3>
+<?php
+highlight_string('<?php echo $Stats->title; ?>');
+?>
+<h5>Results: <?php echo $Stats->title ?></h5>
+<hr><h3>Rounds that you've played<h3>
+<?php
+highlight_string('<?php echo $Stats->rounds; ?>');
+?>
+<h5>Results: <?php echo $Stats->rounds ?></h5>
+<hr><h3>Gathered Cheese<h3>
+<?php
+highlight_string('<?php echo $Stats->cheese; ?>');
+?>
+<h5>Results: <?php echo $Stats->cheese ?></h5>
+<hr>
 </div>
 </center>
 <nav class="navbar navbar-default navbar-fixed-bottom">

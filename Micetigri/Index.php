@@ -10,7 +10,7 @@ include('Config.php')
 <body>
 <center>
 <div class="page-header">
-  <h1>Micetigri API</h1>
+ <h1>Micetigri API</h1>
 </div>
 <h3>Your Username</h3>
 <?php
@@ -66,6 +66,9 @@ highlight_string('<?php echo $Stats->shaman_cheese; ?>');
 ?>
 <h5>Results: <?php echo $Stats->shaman_cheese ?></h5>
 <hr>
+<br>
+<h2>Too view for my stats please visit http://api.micetigri.fr/json/player***Your Username Here***/</h2>
+<br>
 <br>
 <br>
 </center>

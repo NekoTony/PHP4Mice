@@ -1,5 +1,5 @@
 <?php
-include('Config.php')
+include('Config.php') //DO NOT REMOVE//
 ?>
 <html>
 <head>
@@ -10,13 +10,15 @@ include('Config.php')
 <body>
 <center>
 <div class="page-header">
-  <h1>CheeseForMice API</h1>
+<h1>CheeseForMice API</h1>
+</div>
 <h3>Your Username<h3>
 <?php
 highlight_string('<?php echo $Stats->name; ?>');
 ?>
 <h5>Results: <?php echo $Stats->name ?></h5>
-<hr><h3>Your Tribe<h3>
+<hr>
+<h3>Your Tribe<h3>
 <?php
 highlight_string('<?php echo $Stats->tribe; ?>');
 ?>
@@ -44,6 +46,10 @@ highlight_string('<?php echo $Stats->sham_cheese; ?>');
 ?>
 <h5>Results: <?php echo $Stats->sham_cheese ?></h5>
 <hr>
+<h2>Too view for my stats please visit http://api.formice.com/mouse/stats.json?n=***Your Username Here***</h2>
+<br>
+<br>
+<br>
 </div>
 </center>
 <nav class="navbar navbar-default navbar-fixed-bottom">
@@ -57,6 +63,5 @@ highlight_string('<?php echo $Stats->sham_cheese; ?>');
 </div>
 </nav>
 <script src="../js/bootstrap.js">
-
 </body>
 </html>
